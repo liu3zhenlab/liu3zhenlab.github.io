@@ -1,0 +1,10 @@
+.portrait {
+	max-height: 150px;
+	max-width: 150px;
+}
+
+summary > h4 {
+	&::after {
+		content: "\a0";
+	}
+}

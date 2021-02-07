@@ -1,0 +1,10 @@
+aside {
+	ul {
+		list-style-position: inside;
+		padding-inline-start: 10px;
+		&.links {
+			list-style-type: none;
+			font-size: 1.2em;
+		}
+	}
+}

@@ -1,0 +1,14 @@
+<h2>News</h2>
+
+<!--
+	 {% assign data = site.news | reverse %}
+	 {%- for item in data -%}
+	 {%- if item.doi -%}
+	 {%- assign link = item.doi | prepend: "https://doi.org/" -%}
+	 {%- endif -%}
+	 {%- if item.link -%}
+	 {%- assign link = item.link -%}
+	 {%- endif -%}
+	 <li>{{- item.content -}}{%- if link -%}<a href="{{ link }}">Read more</a>{%- endif -%}</li> 
+	 {%- endfor -%}
+-->

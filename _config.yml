@@ -1,0 +1,38 @@
+title: Liu Lab
+url: "PlantGGHLab.github.io"
+
+exclude:
+  - vendor/
+  - README.md
+plugins:
+  - jekyll-optional-front-matter
+optional_front_matter:
+  remove_originals: true
+sass:
+  sass_dir: _sass
+
+collections:
+  - blog
+  - news
+  - people
+# Links to display in the top bar
+# Link could be either a single string for both the path and the title
+nav:
+  - people
+  - projects
+  - publications
+  - title: Teaching
+    url: teaching
+  - blog
+
+defaults:
+  # Set default layout
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "_people"
+    values:
+      alumnus: false
+      photo: "assets/images/people/default.jpg"

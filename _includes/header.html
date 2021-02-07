@@ -1,0 +1,17 @@
+<header role="banner">
+  <a class="ksu-wordmark" href="https://k-state.edu"></a>
+  <nav>
+      <ul>
+		  <li><a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title }}</a></li>
+		  {% for pg in site.nav %}
+			  <li>
+				  {% if pg.title %}
+					  <a href="{{ pg.url | relative_url }}">{{ pg.title }}</a>
+				  {% else %}
+					  <a href="{{ pg | relative_url }}">{{ pg | capitalize }}</a>
+				  {% endif %}
+			  </li>
+		  {% endfor %}
+      </ul>
+  </nav>
+</header>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	{%- include head.html -%}
+	<body>
+		{%- include header.html -%}
+		<div class="wrapper">
+			<aside class="left-sidebar">
+				{%- include left_sidebar.html -%}
+			</aside>
+			<main class="page-content" aria-label="Content">
+				<h1>{{ page.title }}</h1>
+				{{ content }}
+			</main>
+			<aside class="right-sidebar">
+				<div class="news">
+					{% include_md recent_news.md %}					
+				</div>
+			</aside>	  
+		</div>
+		{% comment  %}
+			{%- include footer.html -%}
+		{% endcomment %}
+	</body>
+</html>
+<!--
+TODOs
+- compute the widths in style.scss based on some width threshold of wide and wider monitor.
+-->

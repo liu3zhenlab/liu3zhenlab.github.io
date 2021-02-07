@@ -1,0 +1,13 @@
+a[href^="tel:"]::before {
+	@extend %fa-icon;
+	@extend .fas;
+	content: unquote("\"#{ $fa-var-phone-alt }\a0\"");
+}
+// a[href^="mailto:"]::before {
+//	content: "\1f4e7\a0";
+// }
+a[href^="mailto:"]::before {
+	@extend %fa-icon;
+	@extend .fas;
+	content: unquote("\"#{ $fa-var-envelope }\a0\"");
+}
