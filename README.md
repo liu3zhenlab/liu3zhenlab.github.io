@@ -1,5 +1,5 @@
-# plantgghlab.github.io
-https://plantgghlab.github.io
+# liu3zhen.github.io
+https://liu3zhen.github.io
 
 https://plantgenomics.ksu.edu/liulab
 
