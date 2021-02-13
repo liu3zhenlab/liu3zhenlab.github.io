@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources | Liu Lab</title>
+    <link>/resource/</link>
+      <atom:link href="/resource/index.xml" rel="self" type="application/rss+xml" />
+    <description>Resources</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/images/icon_hu7ec011352ee39eb18e9e2e7ce5b12b82_13080_512x512_fill_lanczos_center_2.png</url>
+      <title>Resources</title>
+      <link>/resource/</link>
+    </image>
+    
+  </channel>
+</rss>
